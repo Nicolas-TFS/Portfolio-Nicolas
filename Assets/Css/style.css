@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cal+Sans&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cal+Sans&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cal+Sans&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+:root
+{
+    --azul-p:#3a56bd ;
+}
+
+html
+{
+  scroll-behavior:smooth;
+}
+
+*
+{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+
+body
+{
+  background-color:#121212
+}
+
+header
+{
+  backdrop-filter:blur (20px);
+  background-color:rgba(58, 86, 189, 1) ;
+  -webkit-backdrop-filter: blur(10px);
+}
+
+nav
+{
+  display: flex;
+  justify-content: space-between;
+  background-color:rgba(58, 86, 189, 0.6);
+  position: fixed ;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0,3 ease;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 10px, 20px;
+  border-bottom: 1px solid rgba(58, 86, 189, 1);
+}
+
+.esquerda
+{
+  display: flex;
+  align-items: center;
+  margin-left:150px;
+  gap:15px;
+  font-family: Anton;
+}
+
+.home-nav
+{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+.links-nav
+{
+  text-decoration: none;
+  color: white;
+  transition: all 500ms;
+  border-radius: 22px;
+  padding: 3px;
+}
+
+.direita
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-right: 150px;
+  gap: 80px;
+}
+
+.links-nav:hover
+{
+  background-color: white;
+  color: black;
+  border-radius: 22px;
+  scale: 1.6;
+}
+
+.color-inicio
+{
+  display: flex;
+  height: auto;
+  background-color: #202020 ;
+}
+
+.inicio
+{
+  margin: 320px auto;
+  width: auto;
+  height: 320px;
+  display: flex;
+  align-items:start;
+  justify-content: center;
+  text-align: center;
+}
+
+.links-inicio1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 30px;
+  transition: all 1s;
+}
+
+.links-inicio
+{
+  text-decoration: none;
+  color: white;
+  border-radius: 40px;
+  border-color: var(--azul-p);
+  
+}
+
+.links-inicio1 :hover
+{
+  filter: brightness(80%);
+}
+
+.color-links
+{
+  background-color: var(--azul-p);
+  border-radius: 40PX;
+  padding: 5PX;
+}
+
+.title-inicio
+{
+  color: white;
+  font-size:48px ;
+  font-family: Montserrat;
+}
+
+.card
+{
+  color: rgb(255, 255, 255);
+  
+  
+}
+
+.card1
+{
+  align-items: center;
+  font-size: 40px;
+  font-family: Montserrat;
+}
+
+.card2 
+{
+  font-size: 26px;
+  width: 420px;
+  height: 400px;
+  font-family: inter;
+}
+
+.span-color
+{
+  color: #0077cc; 
+}
+
+.perfil1
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 400px
+}
+
+.img1
+{
+  border-radius: 50%;
+}
+
+footer
+{
+  background: #121212;
+  width: 100%;
+  height: 150px;
+  bottom: 0;
+
+}
+
+.span-color
+{
+  color: var(--azul-p);
+}
+
+.card-dir
+{
+  color: white;
+  font-size: 30px;
+  width: 420px;
+  height: 400px;
+  margin-top: -50px;
+}
+
+.title-card-dir
+{
+  font-family: Montserrat;
+  font-size: 40px;
+}
+
+.card-dir p
+{
+  font-size: 26px;
+  font-family: inter;
+}
+
+.color-inf
+{
+  display: flex;
+  height: 970px;
+}
+
+.informacoes
+{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 220px auto;
+  align-items: center;
+  scale: 1.35;
+}
+
+.secP
+{
+  display: flex;
+  margin: 150px;
+  justify-content: space-between;
+  margin-top: 100px;
+ 
+}
+
+.carta
+{
+  width: 300px;
+  height: 490px;
+  background-color: var(--azul-p);
+  transition: all 1s;
+  border-radius: 22px;
+  
+}
+
+.carta:hover
+{
+  scale: 1.1;
+  filter: brightness(45%);
+}
+
+.title-carta
+{
+  text-align: center;
+  margin-top: 15px;
+  color:white;
+}
+
+.title-secP
+{
+  font-size: 80px;
+  font-family:Montserrat ;
+  color:white ;
+  height:190px;
+  justify-content:center;
+  display: flex;
+  align-items: end;
+}
+.color-secP
+{
+  background-color: #202020;
+  height: 960px;
+}
+
+.img-carta
+{
+  display: flex;
+  justify-content: center;
+  height: 490px;
+  border-radius: 22px;
+  border-width: 5px;
+  border-color: #303030;
+  border-style: solid;
+}
+
+.links-carta
+{
+  text-decoration: none;
+}
+
+.conteudo-footer
+{
+  display: flex;
+  width: 55%;
+  height: 150px;
+  align-items: center;
+  justify-content:space-between;
+  margin: auto;
+  color: white;
+  scale: 1.4;
+}
+
+.links-footer-meio 
+{
+ text-decoration: none;
+ color: white;
+ transition: all 300ms;
+}
+
+.links-footer-meio:hover
+{
+  color: var(--azul-p);
+}
+
+.footer-dir
+{
+  margin-top: 30px;
+}
+
+.arrow-up
+{
+  display: flex;
+  margin-left: 93%;
+  margin-top: -3.8%;
+}
+
+.links-arrow-up
+{
+  text-decoration: none;
+  color: white;
+  transition: all 300ms;
+}
+
+.links-arrow-up:hover
+{
+  color:var(--azul-p) ;
+}
