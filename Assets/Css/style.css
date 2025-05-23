@@ -353,3 +353,21 @@ footer
 {
   color:var(--azul-p) ;
 }
+
+@media (max-width:1781px)
+{
+  .informacoes
+  {
+    display: block;
+    width: auto;
+    margin: 1px auto;
+    scale: 1;
+  } 
+
+  .color-inf
+  {
+    height: auto;
+    margin-top: 100px;
+  }
+ 
+}
