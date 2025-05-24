@@ -506,20 +506,21 @@ footer
 {
   .color-inicio
   {
-    width: 400px;
+    width: 360px;
   }
 
   .informacoes
   {
     scale: 0.75;
-    width: 400px;
+    width: 360px;
+    margin-left: -15px;
   
   }
 
   .color-inf
   {
     height: 1300px;
-    width: 400px;
+    width: 360px;
   }
 
   .inicio
@@ -531,10 +532,10 @@ footer
 
   .direita
   {
-    scale: 0.65;
+    scale: 0.55;
     gap: 20px;
     width: 40px;
-    margin-right: 230px;
+    margin-right: 180px;
   }
 
   .esquerda
@@ -545,19 +546,19 @@ footer
 
   nav
   {
-    width: 400px;
+    width: 360px;
   }
 
   .color-secP
   {
-    width: 400px;
+    width: 360px;
   }
 
   .arrow-up
   {
-    margin-left: 330px;
-    scale: 0.75;
-    margin-top: 10px;
+    margin-left: 260px;
+    scale: 0.7;
+    margin-top: -10px;
 
   }
   
@@ -569,8 +570,19 @@ footer
 
   .conteudo-footer 
   { 
-    scale: 1.7;
+    margin-right: -20px;
+    scale: 1.4;
     gap: 50px;
     margin-left: 80px;
+  }
+
+  footer
+  {
+    width: 360px;
+  }
+
+  html
+  {
+    width: 360px;
   }
 }
