@@ -502,18 +502,18 @@ footer
   }
 }
 
-@media (max-width:400px)
+@media (max-width:412px)
 {
   .color-inicio
   {
-    width: 360px;
+    width: 412px;
   }
 
   .informacoes
   {
     scale: 0.75;
     width: 360px;
-    margin-left: -15px;
+    margin-left:
   
   }
 
@@ -532,10 +532,10 @@ footer
 
   .direita
   {
-    scale: 0.55;
+    scale: 0.65;
     gap: 20px;
     width: 40px;
-    margin-right: 180px;
+    margin-right: 190px;
   }
 
   .esquerda
@@ -546,34 +546,34 @@ footer
 
   nav
   {
-    width: 360px;
+    width: 412px;
   }
 
   .color-secP
   {
-    width: 360px;
+    width: 412px;
   }
 
   .arrow-up
   {
-    margin-left: 260px;
+    margin-left: 320px;
     scale: 0.7;
-    margin-top: -10px;
+    margin-top: -25px;
 
   }
   
   .desp-footer
   {
-    margin-left: -43px;
+    margin-left: -20px;
     margin-top: -45px;
   }
 
   .conteudo-footer 
   { 
-    margin-right: -20px;
+    margin-right: -0px;
     scale: 1.4;
     gap: 50px;
-    margin-left: 80px;
+    margin-left: 115px;
   }
 
   footer
