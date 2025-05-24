@@ -502,11 +502,11 @@ footer
   }
 }
 
-@media (max-width:412px)
+@media (max-width:400px)
 {
   .color-inicio
   {
-    width: 412px;
+    width: 400px;
   }
 
   .informacoes
@@ -546,12 +546,12 @@ footer
 
   nav
   {
-    width: 412px;
+    width: 400px;
   }
 
   .color-secP
   {
-    width: 412px;
+    width: 400px;
   }
 
   .arrow-up
