@@ -481,3 +481,63 @@ footer
   }
 }
 
+@media (max-width:360px)
+{
+  .informacoes
+  {
+    scale: 0.75;
+    width: 360px;
+    margin-left: -15px;
+  }
+
+  .color-inf
+  {
+    height: 1300px;
+  }
+
+  .inicio
+  {
+    display: flex;
+    scale: 0.6;
+    width: 360px;
+  }
+
+  .direita
+  {
+    scale: 0.65;
+    gap: 20px;
+    width: 40px;
+    margin-right: 230px;
+  }
+
+  .esquerda
+  {
+    scale: 0.6;
+    margin-left: -40px;
+  }
+
+  nav
+  {
+    width: 360px;
+  }
+
+  .arrow-up
+  {
+    margin-left: 274px;
+    scale: 0.75;
+    margin-top: 10px;
+
+  }
+  
+  .desp-footer
+  {
+    margin-left: -43px;
+    margin-top: -45px;
+  }
+
+  .conteudo-footer 
+  { 
+    scale: 1.8;
+    gap: 50px;
+  }
+}
