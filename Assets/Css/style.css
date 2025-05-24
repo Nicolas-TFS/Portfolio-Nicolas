@@ -448,20 +448,36 @@ footer
   }
 }
 
-@media (max-width:695px)
+@media (max-width:480px)
 {
+  .esquerda
+  {
+    margin-left: -20px;
+    scale: 0.7;
+  }
+
   .direita
   {
-    margin-right: 45px;
+    gap: 15px;
+    margin-right: 140px;
+    scale: 0.8;
   }
-}
 
-@media (max-width:650px)
-{
+  .desp-footer
+  {
+    scale: 0.6;
+  }
+
   .arrow-up
   {
-    margin-left: 560px;
+    margin-left: 390px;
+    font-size: 50px;
+  }
+
+  .inicio
+  {
+    scale: 0.8;
+    
   }
 }
-
 
